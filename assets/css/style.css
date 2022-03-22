@@ -1,0 +1,198 @@
+:root {
+    --beige: #FFE9D6;
+    --blue: #A7D0CD;
+    --purple: #7B6079;
+    --orange: #DE8971;
+    --darkgrey: #2B2B2B;
+    --red: #922438;
+}
+
+* {
+    background-color: var(--beige);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* mobile media query */
+
+@media only screen and (max-width:450px) {
+    /* 
+          _       _           _ 
+      __ _| | ___ | |__   __ _| |
+     / _` | |/ _ \| '_ \ / _` | |
+    | (_| | | (_) | |_) | (_| | |
+     \__, |_|\___/|_.__/ \__,_|_|
+     |___/                       */
+    .container {
+        height: 100%;
+        overflow: hidden;
+    }
+    p {
+        font-family: 'Sarala', sans-serif;
+    }
+    /* 
+     _           _           
+    (_)_ __   __| | _____  __
+    | | '_ \ / _` |/ _ \ \/ /
+    | | | | | (_| |  __/>  < 
+    |_|_| |_|\__,_|\___/_/\_\
+                          */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40%;
+    }
+    .header h2,
+    .header h3,
+    .button_box button {
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+    }
+    .header h2,
+    .header h3 {
+        color: var(--purple);
+    }
+    .header h3 {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+    .header h2 {
+        font-size: 3em;
+        letter-spacing: 6px;
+    }
+    hr {
+        width: 80%;
+        margin-bottom: 5px;
+        border: 1px solid black;
+    }
+    .button_box {
+        margin: 20px;
+    }
+    .button_box button {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 2px 15px;
+        margin: 0 10px;
+    }
+    .button_box button {
+        background-color: var(--purple);
+        color: var(--beige);
+    }
+    .earth {
+        margin-top: 50px;
+    }
+    #listMenu {
+        margin-bottom: 5em;
+    }
+    /* 
+     _ __ ___   ___ _ __  _   _ 
+    | '_ ` _ \ / _ \ '_ \| | | |
+    | | | | | |  __/ | | | |_| |
+    |_| |_| |_|\___|_| |_|\__,_|
+                                    */
+    nav {
+        margin: 2.5em 0 3em 1em;
+    }
+    .card {
+        position: relative;
+    }
+    .text {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 3em;
+        margin: 2em;
+        position: relative;
+        text-align: center;
+    }
+    .text h2 {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: var(--purple);
+        text-transform: uppercase;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .icon {
+        /* icons */
+        height: 12px;
+        width: 12px;
+        display: inline;
+        border-radius: 5px;
+    }
+    .card .text p {
+        /* icon text */
+        display: inline;
+    }
+    .animal_pic {
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    /* 
+         _      _        _ _     
+      __| | ___| |_ __ _(_) |___ 
+     / _` |/ _ \ __/ _` | | / __|
+    | (_| |  __/ || (_| | | \__ \
+     \__,_|\___|\__\__,_|_|_|___/
+                              */
+    .details_header {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .details_header h2 {
+        font-size: 4em;
+        line-height: 60px;
+        color: var(--purple);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--darkgrey);
+        letter-spacing: 2px;
+    }
+    .details_box {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .details_card .box {
+        border: 1px solid black;
+        /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.3); */
+        border-radius: 10px;
+        height: 100px;
+        padding: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pair {
+        line-height: 20px;
+        text-align: center;
+    }
+    .pair .title {
+        font-size: 0.9em;
+        color: var(--orange);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .pair .details {
+        font-size: 1.4em;
+    }
+    .pic {
+        height: 300px !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: top;
+    }
+    #listDetails {
+        margin-bottom: 5em;
+    }
+}
