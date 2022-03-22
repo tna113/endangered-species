@@ -1,0 +1,71 @@
+[{
+    "name": "polar bear",
+    "location": "The Arctic",
+    "population": "27,000",
+    "img": "polar_bear",
+    "scientific_name": "Ursus maritimus",
+    "status": "Vulnerable"
+}, {
+    "name": "beluga",
+    "location": "Various Oceans",
+    "population": "150,000",
+    "img": "beluga",
+    "scientific_name": "Ursus maritimus",
+    "status": "Near Threatened"
+}, {
+    "name": "bowhead whale",
+    "location": "The Arctic",
+    "population": "10,000",
+    "img": "bowhead_whale",
+    "scientific_name": "Balaena mysticetus",
+    "status": "Least Concern"
+}, {
+    "name": "chimpanzee",
+    "location": "Congo Basin",
+    "population": "200,000",
+    "img": "chimpanzee",
+    "scientific_name": "",
+    "status": "Endangered"
+}, {
+    "name": "tapanuli orangutan",
+    "location": "South East&nbsp;Asia",
+    "population": "800",
+    "img": "tapanuli",
+    "scientific_name": "Pongo pygmaeus",
+    "status": "Critically Endangered"
+}, {
+    "name": "bonobo",
+    "location": "Congo Basin",
+    "population": "30,000",
+    "img": "bonobo",
+    "scientific_name": "Pan paniscus",
+    "status": "Endangered"
+}, {
+    "name": "gorilla",
+    "location": "Congo Basin",
+    "population": "150,000",
+    "img": "gorilla",
+    "scientific_name": "Gorilla gorilla",
+    "status": "Endangered"
+}, {
+    "name": "jaguar",
+    "location": "The Amazon",
+    "population": "15,000",
+    "img": "jaguar",
+    "scientific_name": "Panthera onca",
+    "status": "Near Threatened"
+}, {
+    "name": "snow leopard",
+    "location": "The Himalayas",
+    "population": "5,000",
+    "img": "snow_leopard",
+    "scientific_name": "Panthera uncia",
+    "status": "Vulnerable"
+}, {
+    "name": "tiger",
+    "location": "Various Forests",
+    "population": "3,900",
+    "img": "tiger",
+    "scientific_name": "Panthera tigris",
+    "status": "Endangered"
+}]
